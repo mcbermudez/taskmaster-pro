@@ -277,6 +277,10 @@ var auditTask = function(taskEl) {
   console.log(time);
 };
 
+setInterval(function() {
+  // code to execute
+}, (1000 * 60) * 30);
+
 // remove all tasks
 $("#remove-tasks").on("click", function() {
   for (var key in tasks) {
